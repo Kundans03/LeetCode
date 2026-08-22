@@ -1,23 +1,39 @@
 class Solution {
     public void setZeroes(int[][] matrix) {
-        boolean[] row = new boolean[matrix.length];
-        boolean[] col = new boolean[matrix[0].length];
+
+        boolean isFirstCellZero = false;
 
         for (int r = 0; r < matrix.length; r++) {
-            for (int c = 0; c < matrix[0].length; c++) {
+            if (matrix[r][0] == 0) {
+                isFirstCellZero = true;
+            }
+            for (int c = 1; c < matrix[0].length; c++) {
                 if (matrix[r][c] == 0) {
-                    row[r] = true;
-                    col[c] = true;
+                    matrix[r][0] = 0;
+                    matrix[0][c] = 0;
                 }
             }
         }
 
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
-                if (row[i] || col[j]) {
-                    matrix[i][j] = 0;
+        for (int r = 1; r < matrix.length; r++) {
+            for (int c = 1; c < matrix[r].length; c++) {
+                if (matrix[r][0] == 0 || matrix[0][c] == 0) {
+                    matrix[r][c] = 0;
                 }
             }
         }
+
+        if (matrix[0][0] == 0) {
+            for (int c = 0; c < matrix[0].length; c++) {
+                matrix[0][c] = 0;
+            }
+        }
+
+        if (isFirstCellZero) {
+            for (int r = 0; r < matrix.length; r++) {
+                matrix[r][0] = 0;
+            }
+        }
+
     }
 }
