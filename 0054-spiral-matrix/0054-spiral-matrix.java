@@ -2,55 +2,41 @@ class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> spiral = new ArrayList<>();
 
-        int top = 0;
-        int bottom = matrix.length - 1;
-        int left = 0;
-        int right = matrix[0].length - 1;
+        int r = matrix.length;
+        int c = matrix[0].length;
+
+        int left = 0, right = c - 1;
+        int top = 0, bottom = r - 1;
 
         while (top <= bottom && left <= right) {
-            row(left, right + 1, top, false, spiral, matrix);
+
+            for (int col = left; col <= right; col++) {
+                spiral.add(matrix[top][col]);
+            }
             top++;
 
-            col(top, bottom + 1, right, false, spiral, matrix);
+            for (int row = top; row <= bottom; row++) {
+                spiral.add(matrix[row][right]);
+            }
             right--;
 
             if (top <= bottom) {
-                row(left, right + 1, bottom, true, spiral, matrix);
+                for (int col = right; col >= left; col--) {
+                    spiral.add(matrix[bottom][col]);
+                }
                 bottom--;
             }
 
             if (left <= right) {
-                col(top, bottom + 1, left, true, spiral, matrix);
+                for (int row = bottom; row >= top; row--) {
+                    spiral.add(matrix[row][left]);
+                }
                 left++;
             }
+
         }
 
-        // System.out.println(spiral);
         return spiral;
 
-    }
-
-    static void row(int start, int end, int row, boolean isReverse, List<Integer> spiral, int[][] matrix) {
-        if (isReverse) {
-            for (int i = end - 1; i >= start; i--) {
-                spiral.add(matrix[row][i]);
-            }
-        } else {
-            for (int i = start; i < end; i++) {
-                spiral.add(matrix[row][i]);
-            }
-        }
-    }
-
-    static void col(int start, int end, int col, boolean isReverse, List<Integer> spiral, int[][] matrix) {
-        if (isReverse) {
-            for (int i = end - 1; i >= start; i--) {
-                spiral.add(matrix[i][col]);
-            }
-        } else {
-            for (int i = start; i < end; i++) {
-                spiral.add(matrix[i][col]);
-            }
-        }
     }
 }
