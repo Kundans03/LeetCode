@@ -15,7 +15,7 @@ public class Solution extends VersionControl {
             if (responce) {
                 badVersion = currentVersion;
                 right = currentVersion - 1;
-            } else if (!responce) {
+            } else {
                 left = currentVersion + 1;
             }
         }
