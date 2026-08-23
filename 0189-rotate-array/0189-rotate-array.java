@@ -9,7 +9,7 @@ class Solution {
         // System.out.print(Arrays.toString(nums));
     }
 
-    static void rotateArray(int[] nums, int start, int end) {
+    private void rotateArray(int[] nums, int start, int end) {
         while (start < end) {
             int temp = nums[start];
             nums[start] = nums[end];
