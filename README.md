@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kundans03/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0268-missing-number](https://github.com/Kundans03/LeetCode/tree/master/0268-missing-number) |
 | [0278-first-bad-version](https://github.com/Kundans03/LeetCode/tree/master/0278-first-bad-version) |
+| [0367-valid-perfect-square](https://github.com/Kundans03/LeetCode/tree/master/0367-valid-perfect-square) |
 | [0374-guess-number-higher-or-lower](https://github.com/Kundans03/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
 ## Math
 |  |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/Kundans03/LeetCode/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/Kundans03/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Kundans03/LeetCode/tree/master/0268-missing-number) |
+| [0367-valid-perfect-square](https://github.com/Kundans03/LeetCode/tree/master/0367-valid-perfect-square) |
 | [1217-minimum-cost-to-move-chips-to-the-same-position](https://github.com/Kundans03/LeetCode/tree/master/1217-minimum-cost-to-move-chips-to-the-same-position) |
 | [1252-cells-with-odd-values-in-a-matrix](https://github.com/Kundans03/LeetCode/tree/master/1252-cells-with-odd-values-in-a-matrix) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Kundans03/LeetCode/tree/master/1295-find-numbers-with-even-number-of-digits) |
