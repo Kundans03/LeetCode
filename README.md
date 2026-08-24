@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Kundans03/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/Kundans03/LeetCode/tree/master/0268-missing-number) |
 | [0566-reshape-the-matrix](https://github.com/Kundans03/LeetCode/tree/master/0566-reshape-the-matrix) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/Kundans03/LeetCode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0832-flipping-an-image](https://github.com/Kundans03/LeetCode/tree/master/0832-flipping-an-image) |
 | [0867-transpose-matrix](https://github.com/Kundans03/LeetCode/tree/master/0867-transpose-matrix) |
 | [0885-spiral-matrix-iii](https://github.com/Kundans03/LeetCode/tree/master/0885-spiral-matrix-iii) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0278-first-bad-version](https://github.com/Kundans03/LeetCode/tree/master/0278-first-bad-version) |
 | [0367-valid-perfect-square](https://github.com/Kundans03/LeetCode/tree/master/0367-valid-perfect-square) |
 | [0374-guess-number-higher-or-lower](https://github.com/Kundans03/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/Kundans03/LeetCode/tree/master/0744-find-smallest-letter-greater-than-target) |
 ## Math
 |  |
 | ------- |
