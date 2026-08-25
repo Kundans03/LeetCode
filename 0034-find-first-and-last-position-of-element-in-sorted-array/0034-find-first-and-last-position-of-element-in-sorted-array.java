@@ -1,36 +1,30 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
-        int first = -1;
-        int last = -1;
+        int first = binarySearch(nums, 0, nums.length - 1, target, true);
+        int last = binarySearch(nums, 0, nums.length - 1, target, false);
 
-        if (nums.length == 0) {
-            return new int[] { first, last };
-        }
-
-        first = binarySearch(0, nums.length - 1, nums, target, false);
-        last = binarySearch(0, nums.length - 1, nums, target, true);
-
-        return new int[] { first, last };
-
+        return new int[]{first,last};
     }
 
-    static int binarySearch(int start, int end, int[] nums, int target, boolean isForward) {
-        int position = -1;
-        while (start <= end) {
-            int mid = start + (end - start) / 2;
-            if (nums[mid] < target) {
-                start = mid + 1;
-            } else if (nums[mid] > target) {
-                end = mid - 1;
-            } else {
-                position = mid;
-                if (isForward) {
-                    start = mid + 1;
+    public int binarySearch(int[] nums, int low, int high, int target, boolean isLeft) {
+        int lastPosition = -1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            if (target > nums[mid]) {
+                low = mid + 1;
+            } else if (target < nums[mid]) {
+                high = mid - 1;
+            } else if (target == nums[mid]) {
+                if (isLeft) {
+                    lastPosition = mid;
+                    high = mid - 1;
                 } else {
-                    end = mid - 1;
+                    lastPosition = mid;
+                    low = mid + 1;
                 }
             }
         }
-        return position;
+        return lastPosition;
     }
 }
