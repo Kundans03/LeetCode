@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1252-cells-with-odd-values-in-a-matrix](https://github.com/Kundans03/LeetCode/tree/master/1252-cells-with-odd-values-in-a-matrix) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Kundans03/LeetCode/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1304-find-n-unique-integers-sum-up-to-zero](https://github.com/Kundans03/LeetCode/tree/master/1304-find-n-unique-integers-sum-up-to-zero) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Kundans03/LeetCode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Kundans03/LeetCode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1380-lucky-numbers-in-a-matrix](https://github.com/Kundans03/LeetCode/tree/master/1380-lucky-numbers-in-a-matrix) |
 | [1389-create-target-array-in-the-given-order](https://github.com/Kundans03/LeetCode/tree/master/1389-create-target-array-in-the-given-order) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Kundans03/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Kundans03/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Kundans03/LeetCode/tree/master/0268-missing-number) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Kundans03/LeetCode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Kundans03/LeetCode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/Kundans03/LeetCode/tree/master/1832-check-if-the-sentence-is-pangram) |
 ## Two Pointers
@@ -86,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kundans03/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Kundans03/LeetCode/tree/master/0189-rotate-array) |
 | [0832-flipping-an-image](https://github.com/Kundans03/LeetCode/tree/master/0832-flipping-an-image) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Kundans03/LeetCode/tree/master/1346-check-if-n-and-its-double-exist) |
 ## Sorting
 |  |
 | ------- |
@@ -97,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Kundans03/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Kundans03/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Kundans03/LeetCode/tree/master/0268-missing-number) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Kundans03/LeetCode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Kundans03/LeetCode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 ## Dynamic Programming
 |  |
@@ -140,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0374-guess-number-higher-or-lower](https://github.com/Kundans03/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Kundans03/LeetCode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Kundans03/LeetCode/tree/master/0852-peak-index-in-a-mountain-array) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Kundans03/LeetCode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1539-kth-missing-positive-number](https://github.com/Kundans03/LeetCode/tree/master/1539-kth-missing-positive-number) |
 ## Math
 |  |
