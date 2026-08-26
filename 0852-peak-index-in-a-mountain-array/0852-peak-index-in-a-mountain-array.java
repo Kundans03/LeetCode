@@ -1,20 +1,17 @@
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {
-        return binarySearch(arr,0,arr.length-1);
-    }
+        int start = 0;
+        int end = arr.length-1;
 
-    public int binarySearch(int[] arr,int low, int high){
-        while(low<=high){
-             int mid = low + (high-low) / 2;
+        while(start<end){
+            int mid = start + (end-start) / 2;
 
-            if(arr[mid-1]>arr[mid]){
-                high = mid;
-            }else if(arr[mid+1] > arr[mid]) {
-                low = mid;
+            if(arr[mid]>arr[mid+1]){
+                end = mid;
             }else{
-                return mid;
+                start = mid + 1;
             }
         }
-        return -1;
+        return start;
     }
 }
