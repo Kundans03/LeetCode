@@ -19,6 +19,10 @@ class Solution {
             int cap = 0;
 
                 for(int weight : weights){
+                    if(dayPassed > days){
+                        break;
+                    }
+
                     if(cap + weight > midCapacity){
                         dayPassed++;
                         cap = 0;
